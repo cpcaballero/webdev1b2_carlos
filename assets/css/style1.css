@@ -1,0 +1,19 @@
+body {
+    /* background-color: #227fe3; */
+    background-repeat: no-repeat;
+}
+
+.carImage {
+    background-image: url("../img/car.jpeg");
+    width: 500px;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+}
+
+#carDescription {
+    color: #0412b3;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+}

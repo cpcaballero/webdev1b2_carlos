@@ -1,0 +1,64 @@
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    margin: 50px;
+}
+
+@keyframes animation1 {
+    /* from { baackground-color: bisque; }
+    to { background-color: turquoise; } */
+
+    0% { background-color: aliceblue; width: 25px; }
+    25% { background-color: aquamarine; width: 250px }
+    50% { background-color: blue; width: 200px; }
+    75% { background-color: yellow; width: 100px; }
+    100% { background-color: olivedrab; width: 200px }
+}
+
+.animation1 {
+    animation-name: animation1;
+    animation-duration: 20s;
+    background-color: bisque;
+    animation-iteration-count: infinite;
+}
+
+.transition {
+    background-color: violet;
+    transition: width 1s, transform 3s; 
+    /* task: make the box move 200px to the right in 3seconds */
+}
+
+.transition:hover {
+    width: 350px;
+    transform: translateX(200px);
+}
+
+.rotate-element {
+    transform: rotate(45deg);
+    background-color: green;
+}
+
+.scale-element {
+    transform: scale(1.5);
+    background-color: blue;
+}
+
+.skew-element {
+    transform: skew(30deg, 20deg);
+     /* transform: skewX(-30deg); */
+    /* transform: skewY(-20deg); */
+    background-color: yellow;
+}
+
+.translate-element {
+    transform: translate(50px, 20px);
+    /* transform: translateX(50px); */
+    /* transform: translateY(-550px); */
+    background-color: orange;
+}
+
+.combined-transform {
+    transform: rotate(45deg) scale(1.5) skew(10deg, 5deg) translate(20px, 10px);
+    background-color: brown;
+}
