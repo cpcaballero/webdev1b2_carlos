@@ -6,7 +6,6 @@ for (var x = 0; x <= 10; x++) {
  * create a for loop that displays the number from zero to 10,
  * If the number is even, print out 'EVEN'
  * If the number is odd, print out 'ODD'
- * 
  */
 for (var counter = 5; counter < 30; counter++) {
   if (counter % 2 == 0) { // check if it is even
@@ -25,7 +24,7 @@ console.log('down');
 
 var y = 0;
 while (y <= 10) {
-  console.log('Kael ulet # ', y);
+  console.log('Neil naman pogi this time # ', y);
   y++;
 }
 
@@ -35,7 +34,7 @@ if (confirm('Press a button')) {
   console.log('You pressed cancel');
 }
 
-console.log('end #1 ');
+console.log('end #1');
 
 var confirmOutput = confirm('Trying out confirm box');
 console.log('checking confirmOutput');
@@ -56,4 +55,8 @@ if (personName == 'Alixandria') {
   alert('Welcome to my site, ' + personName);
 } else {
   alert('Only Alixandria can enter here!');
+}
+
+for (var counter2 = 0; counter2 < 100; counter2++) {
+  console.log('github change counter2', counter2);
 }
