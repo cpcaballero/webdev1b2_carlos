@@ -6,8 +6,13 @@ other keypads: gray
 hovered button: #6c62ff
 */
 
+html {
+  height: 100%;
+}
+
 body {
   background-color: #1c293a;
+  height: 100%;
 }
 
 #calcContainer {
